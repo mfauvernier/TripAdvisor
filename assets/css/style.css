@@ -61,7 +61,6 @@ header button {
 main .container {
   width: 1024px;
   margin: 0 auto;
-  border: 1px solid blue;
   height: 400px;
 }
 
@@ -107,20 +106,19 @@ main nav div {
 }
 
 .pictures {
-  display: flex;
-}
-
-.first-column {
   height: 430px;
-  width: 613px;
-  object-fit: cover;
-  border: 10px solid purple;
+  display: flex;
+  gap: 1px;
 }
 
 .second-column {
-  height: 430px;
   width: 411px;
-  border: 10px solid red;
   display: flex;
   flex-direction: column;
+  gap: 1px;
+}
+
+.second-column img {
+  height: 49.9%;
+  object-fit: cover;
 }
